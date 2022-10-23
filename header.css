@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  /* border-bottom: 2px solid skyblue; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.logo {
+  color: red;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.input-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: skyblue;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-text {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid skyblue;
+  outline: none;
+  padding: 0 5px;
+}
+
+.input-text:focus {
+  border: 2px solid red;
+}
