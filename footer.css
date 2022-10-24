@@ -2,19 +2,16 @@ footer {
   display: flex;
   flex-direction: column;
   align-content: space-between;
-}
-
-.first-footer {
   margin: 0 160px;
 }
 
-.up-footer {
+.function-footer {
   display: flex;
   border-bottom: 2px solid gray;
   padding: 20px 0;
 }
 
-.down-footer {
+.info-footer {
   padding: 20px 0;
 }
 
@@ -37,33 +34,19 @@ footer {
   display: flex;
 }
 
+.first-btn {
+  padding-right: 0;
+}
+
+.last-btn {
+  padding-left: 0;
+}
+
 .content-btn {
   border: 0 solid #fff;
   background-color: #fff;
   padding: 0 15px;
-  justify-content: left;
   border-right: 1px solid gray;
-  color: gray;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.first-btn {
-  border: 0 solid #fff;
-  background-color: #fff;
-  justify-content: left;
-  padding: 0 15px 0 0;
-  border-right: 1px solid gray;
-  color: gray;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.last-btn {
-  border: 0 solid #fff;
-  background-color: #fff;
-  justify-content: left;
-  padding: 0 0 0 15px;
   color: gray;
   text-decoration: none;
   font-size: 12px;
@@ -89,13 +72,18 @@ footer {
   gap: 10px;
 }
 
+.naver-btn {
+  border-right: none;
+}
+
 .img-font {
-  width: 50px;
-  height: 15px;
+  /* width: 50px;
+  height: 15px; */
+  padding: 0;
   text-decoration: none;
   font-size: 12px;
 }
 
-.naver-btn {
-  border-right: none;
+.text-fit {
+  width: fit-content;
 }
